@@ -43,7 +43,7 @@ class AccountRegister extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.mail.register',
+            view: 'emails.user.register',
         );
     }
 
